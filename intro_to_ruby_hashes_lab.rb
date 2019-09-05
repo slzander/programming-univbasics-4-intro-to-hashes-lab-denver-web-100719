@@ -28,6 +28,6 @@ def update_counting_hash(hash, key)
     return hash
   else
     hash[key] = 1
-    return hash
   end 
+  return hash
 end
